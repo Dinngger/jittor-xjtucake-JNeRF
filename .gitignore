@@ -2,7 +2,9 @@ __pycache__/
 logs/
 logs_ref/
 data/
-result/
+result/*
+!result/Coffee_r_0.png
+!result/Easyship_r_8.png
 !data/fox
 python/build
 python/dist
