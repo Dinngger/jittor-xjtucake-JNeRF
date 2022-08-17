@@ -25,6 +25,9 @@
 ## 训练时间
 单个场景在1张2070s上训练时间约为10分钟,5个场景大约需要50分钟。更长的训练时间几乎不再提升psnr。
 
+## 比赛场景模型
+我们训练好的模型可以在[云盘](https://pan.baidu.com/s/13EbSdQ314IsQkvGIsy0_yA?pwd=tzya)下载。将logs文件夹放到仓库根目录下即可。
+
 # 使用方法
 1. 修改projects/ngp/configs/ngp_comp.py中的exp_name以选择不同的场景。
 2. 修改test.sh中的task以执行不同的任务。
